@@ -13,3 +13,13 @@
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
 }
+
+/* footer section for attribution */
+footer {
+  position: absolute;
+  pointer-events: none;
+  z-index: -999;
+  opacity: 0;
+  scale: 0;
+  visibility: hidden;
+}
